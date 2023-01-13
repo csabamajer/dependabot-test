@@ -32,17 +32,6 @@
   },
   "dependencies": {
     "@fastify/static": "^6.6.0",
-    "@magyar-bankholding-zrt/fnd-kafka-api": "^5.2.0-pr446.0",
-    "@magyar-bankholding-zrt/fnd-lib-ajv": "^1.16.7",
-    "@magyar-bankholding-zrt/fnd-lib-monitoring": "^1.29.0",
-    "@magyar-bankholding-zrt/fnd-lib-nestjs-auth": "^1.14.0",
-    "@magyar-bankholding-zrt/fnd-lib-nestjs-kafka": "1.21.1",
-    "@magyar-bankholding-zrt/fnd-lib-nestjs-monitoring": "^1.3.0",
-    "@magyar-bankholding-zrt/fnd-lib-nestjs-setup": "^1.23.0",
-    "@magyar-bankholding-zrt/ms-usl-contract-cancellation-calculation-sdk": "^1.0.2",
-    "@magyar-bankholding-zrt/ms-usl-contract-cancellation-sdk": "^1.0.5",
-    "@magyar-bankholding-zrt/papl-common": "^0.25.0",
-    "@magyar-bankholding-zrt/swagger-api": "^1.6.0",
     "@nestjs/axios": "^1.0.0",
     "@nestjs/common": "^9.2.1",
     "@nestjs/core": "^9.2.1",
@@ -68,9 +57,6 @@
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.1.0",
     "@golevelup/ts-jest": "^0.3.4",
-    "@magyar-bankholding-zrt/eslint-config-airbnb": "^1.1.0",
-    "@magyar-bankholding-zrt/extended-tsconfig": "^1.0.1",
-    "@magyar-bankholding-zrt/fnd-configs": "^2.4.1",
     "@nestjs/cli": "^8.2.8",
     "@nestjs/schematics": "^9.0.0",
     "@nestjs/testing": "^9.0.0",
@@ -105,8 +91,7 @@
     "tsconfig-paths": "^4.1.0",
     "typescript": "^4.7.4"
   },
-  "prettier": "@magyar-bankholding-zrt/fnd-configs/prettier",
-  "lint-staged": {
+   "lint-staged": {
     "*.{js,ts,md}": [
       "prettier --write ."
     ]
