@@ -1,5 +1,5 @@
 name: Dependabot auto approve and merge
-on: pull_request
+on: pull_request_target
 
 permissions:
   contents: write
@@ -32,5 +32,15 @@ jobs:
           issue-number: ${{ github.event.number }}
           body: |
             Szevasz - ${{ github.event.number }}
+            Updated dependencies: ${{steps.dependabot-metadata.outputs.dependency-names}}
+            Type: ${{steps.dependabot-metadata.outputs.dependency-type}}
+            Type: ${{steps.dependabot-metadata.outputs.dependency-type}}
+            Update Type: ${{steps.dependabot-metadata.outputs.update-type}}
+
+            ${{steps.dependabot-metadata.outputs.previous-version}} --> ${{steps.dependabot-metadata.outputs.new-version}}
           reactions: heart, hooray, laugh
-     
+      - name: Add a label for all production dependencies
+        run: gh pr edit "$PR_URL" --add-label "auto-merged"
+        env:
+          PR_URL: ${{github.event.pull_request.html_url}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
