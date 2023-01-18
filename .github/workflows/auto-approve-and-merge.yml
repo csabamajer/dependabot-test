@@ -8,14 +8,14 @@ permissions:
 jobs:
   dependabot-approve:
     runs-on: ubuntu-latest
-    # if: ${{ github.actor == 'dependabot[bot]' }}
+    if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
       
-      # - name: Dependabot metadata
-      #   id: metadata
-      #   uses: dependabot/fetch-metadata@v1.3.5
-      #   with:
-      #     github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - name: Dependabot metadata
+        id: metadata
+        uses: dependabot/fetch-metadata@v1.3.5
+        with:
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
       - name: Enable auto-merge for Dependabot PRs
         run: gh pr merge --auto --merge "$PR_URL"
         env:
@@ -31,6 +31,6 @@ jobs:
         with:
           issue-number: ${{ github.event.number }}
           body: |
-            Szevasz
-          reactions: eyes
+            Szevasz - ${{ github.event.number }}
+          reactions: heart, hooray, laugh
      
