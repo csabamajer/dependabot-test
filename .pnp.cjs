@@ -89,7 +89,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ts-node", "virtual:bcf1e79d5d303806a70d3c08e784671c8bd0b8ec5070f10011f3655b10e0d690a4ae122d2086799f834e4be7643b2463c32e1f40adddedbf8b6af81e8799b40a#npm:10.9.1"],\
             ["tsconfig-paths", "npm:4.1.2"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=a1c5e5"],\
-            ["uuid", "npm:8.3.2"]\
+            ["uuid", "npm:9.0.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -9389,7 +9389,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ts-node", "virtual:bcf1e79d5d303806a70d3c08e784671c8bd0b8ec5070f10011f3655b10e0d690a4ae122d2086799f834e4be7643b2463c32e1f40adddedbf8b6af81e8799b40a#npm:10.9.1"],\
             ["tsconfig-paths", "npm:4.1.2"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=a1c5e5"],\
-            ["uuid", "npm:8.3.2"]\
+            ["uuid", "npm:9.0.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -12016,13 +12016,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["uuid", [\
-        ["npm:8.3.2", {\
-          "packageLocation": "./.yarn/cache/uuid-npm-8.3.2-eca0baba53-5575a8a75c.zip/node_modules/uuid/",\
-          "packageDependencies": [\
-            ["uuid", "npm:8.3.2"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:9.0.0", {\
           "packageLocation": "./.yarn/cache/uuid-npm-9.0.0-46c41e3e43-8dd2c83c43.zip/node_modules/uuid/",\
           "packageDependencies": [\
