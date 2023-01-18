@@ -82,7 +82,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.8.3"],\
             ["reflect-metadata", "npm:0.1.13"],\
             ["rimraf", "npm:4.1.1"],\
-            ["rxjs", "npm:6.6.7"],\
+            ["rxjs", "npm:7.8.0"],\
             ["source-map-support", "npm:0.5.21"],\
             ["supertest", "npm:6.3.3"],\
             ["ts-jest", "virtual:a48633a9f3cfe7ebb251f87bc708f5cfeb9c96fc678608768ce74ad84072ce5cbd47e5aa5fdda4924a829773e8edbe65cec1c70f8710b4257e56957efa9e12f1#npm:28.0.8"],\
@@ -1749,7 +1749,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/rxjs", null],\
             ["axios", "npm:1.2.1"],\
             ["reflect-metadata", "npm:0.1.13"],\
-            ["rxjs", "npm:6.6.7"]\
+            ["rxjs", "npm:7.8.0"]\
           ],\
           "packagePeers": [\
             "@nestjs/common",\
@@ -1815,7 +1815,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["class-validator", "npm:0.14.0"],\
             ["iterare", "npm:1.2.1"],\
             ["reflect-metadata", "npm:0.1.13"],\
-            ["rxjs", "npm:6.6.7"],\
+            ["rxjs", "npm:7.8.0"],\
             ["tslib", "npm:2.4.1"],\
             ["uuid", "npm:9.0.0"]\
           ],\
@@ -1862,7 +1862,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["object-hash", "npm:3.0.0"],\
             ["path-to-regexp", "npm:3.2.0"],\
             ["reflect-metadata", "npm:0.1.13"],\
-            ["rxjs", "npm:6.6.7"],\
+            ["rxjs", "npm:7.8.0"],\
             ["tslib", "npm:2.4.1"],\
             ["uuid", "npm:9.0.0"]\
           ],\
@@ -1979,7 +1979,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mqtt", null],\
             ["nats", null],\
             ["reflect-metadata", "npm:0.1.13"],\
-            ["rxjs", "npm:6.6.7"],\
+            ["rxjs", "npm:7.8.0"],\
             ["tslib", "npm:2.4.1"]\
           ],\
           "packagePeers": [\
@@ -2171,7 +2171,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["check-disk-space", "npm:3.3.1"],\
             ["mongoose", null],\
             ["reflect-metadata", "npm:0.1.13"],\
-            ["rxjs", "npm:6.6.7"],\
+            ["rxjs", "npm:7.8.0"],\
             ["sequelize", null],\
             ["typeorm", null]\
           ],\
@@ -9382,7 +9382,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.8.3"],\
             ["reflect-metadata", "npm:0.1.13"],\
             ["rimraf", "npm:4.1.1"],\
-            ["rxjs", "npm:6.6.7"],\
+            ["rxjs", "npm:7.8.0"],\
             ["source-map-support", "npm:0.5.21"],\
             ["supertest", "npm:6.3.3"],\
             ["ts-jest", "virtual:a48633a9f3cfe7ebb251f87bc708f5cfeb9c96fc678608768ce74ad84072ce5cbd47e5aa5fdda4924a829773e8edbe65cec1c70f8710b4257e56957efa9e12f1#npm:28.0.8"],\
