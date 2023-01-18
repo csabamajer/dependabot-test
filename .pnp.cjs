@@ -77,19 +77,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-mock-extended", "virtual:a48633a9f3cfe7ebb251f87bc708f5cfeb9c96fc678608768ce74ad84072ce5cbd47e5aa5fdda4924a829773e8edbe65cec1c70f8710b4257e56957efa9e12f1#npm:3.0.1"],\
             ["kafkajs", "npm:2.2.3"],\
             ["lint-staged", "npm:13.1.0"],\
-            ["luxon", "npm:3.2.1"],\
+            ["luxon", "npm:2.5.2"],\
             ["node-fetch-h2", "npm:2.3.1-0"],\
             ["prettier", "npm:2.8.3"],\
             ["reflect-metadata", "npm:0.1.13"],\
             ["rimraf", "npm:4.1.1"],\
-            ["rxjs", "npm:7.8.0"],\
+            ["rxjs", "npm:6.6.7"],\
             ["source-map-support", "npm:0.5.21"],\
             ["supertest", "npm:6.3.3"],\
             ["ts-jest", "virtual:a48633a9f3cfe7ebb251f87bc708f5cfeb9c96fc678608768ce74ad84072ce5cbd47e5aa5fdda4924a829773e8edbe65cec1c70f8710b4257e56957efa9e12f1#npm:28.0.8"],\
             ["ts-node", "virtual:bcf1e79d5d303806a70d3c08e784671c8bd0b8ec5070f10011f3655b10e0d690a4ae122d2086799f834e4be7643b2463c32e1f40adddedbf8b6af81e8799b40a#npm:10.9.1"],\
             ["tsconfig-paths", "npm:4.1.2"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=a1c5e5"],\
-            ["uuid", "npm:9.0.0"]\
+            ["uuid", "npm:8.3.2"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -1749,7 +1749,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/rxjs", null],\
             ["axios", "npm:1.2.1"],\
             ["reflect-metadata", "npm:0.1.13"],\
-            ["rxjs", "npm:7.8.0"]\
+            ["rxjs", "npm:6.6.7"]\
           ],\
           "packagePeers": [\
             "@nestjs/common",\
@@ -1815,7 +1815,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["class-validator", "npm:0.14.0"],\
             ["iterare", "npm:1.2.1"],\
             ["reflect-metadata", "npm:0.1.13"],\
-            ["rxjs", "npm:7.8.0"],\
+            ["rxjs", "npm:6.6.7"],\
             ["tslib", "npm:2.4.1"],\
             ["uuid", "npm:9.0.0"]\
           ],\
@@ -1862,7 +1862,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["object-hash", "npm:3.0.0"],\
             ["path-to-regexp", "npm:3.2.0"],\
             ["reflect-metadata", "npm:0.1.13"],\
-            ["rxjs", "npm:7.8.0"],\
+            ["rxjs", "npm:6.6.7"],\
             ["tslib", "npm:2.4.1"],\
             ["uuid", "npm:9.0.0"]\
           ],\
@@ -1979,7 +1979,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mqtt", null],\
             ["nats", null],\
             ["reflect-metadata", "npm:0.1.13"],\
-            ["rxjs", "npm:7.8.0"],\
+            ["rxjs", "npm:6.6.7"],\
             ["tslib", "npm:2.4.1"]\
           ],\
           "packagePeers": [\
@@ -2171,7 +2171,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["check-disk-space", "npm:3.3.1"],\
             ["mongoose", null],\
             ["reflect-metadata", "npm:0.1.13"],\
-            ["rxjs", "npm:7.8.0"],\
+            ["rxjs", "npm:6.6.7"],\
             ["sequelize", null],\
             ["typeorm", null]\
           ],\
@@ -8931,10 +8931,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["luxon", [\
-        ["npm:3.2.1", {\
-          "packageLocation": "./.yarn/cache/luxon-npm-3.2.1-56f8d97395-3fa3def2c5.zip/node_modules/luxon/",\
+        ["npm:2.5.2", {\
+          "packageLocation": "./.yarn/cache/luxon-npm-2.5.2-d4f55f89d0-d8b671ffd2.zip/node_modules/luxon/",\
           "packageDependencies": [\
-            ["luxon", "npm:3.2.1"]\
+            ["luxon", "npm:2.5.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -9377,19 +9377,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-mock-extended", "virtual:a48633a9f3cfe7ebb251f87bc708f5cfeb9c96fc678608768ce74ad84072ce5cbd47e5aa5fdda4924a829773e8edbe65cec1c70f8710b4257e56957efa9e12f1#npm:3.0.1"],\
             ["kafkajs", "npm:2.2.3"],\
             ["lint-staged", "npm:13.1.0"],\
-            ["luxon", "npm:3.2.1"],\
+            ["luxon", "npm:2.5.2"],\
             ["node-fetch-h2", "npm:2.3.1-0"],\
             ["prettier", "npm:2.8.3"],\
             ["reflect-metadata", "npm:0.1.13"],\
             ["rimraf", "npm:4.1.1"],\
-            ["rxjs", "npm:7.8.0"],\
+            ["rxjs", "npm:6.6.7"],\
             ["source-map-support", "npm:0.5.21"],\
             ["supertest", "npm:6.3.3"],\
             ["ts-jest", "virtual:a48633a9f3cfe7ebb251f87bc708f5cfeb9c96fc678608768ce74ad84072ce5cbd47e5aa5fdda4924a829773e8edbe65cec1c70f8710b4257e56957efa9e12f1#npm:28.0.8"],\
             ["ts-node", "virtual:bcf1e79d5d303806a70d3c08e784671c8bd0b8ec5070f10011f3655b10e0d690a4ae122d2086799f834e4be7643b2463c32e1f40adddedbf8b6af81e8799b40a#npm:10.9.1"],\
             ["tsconfig-paths", "npm:4.1.2"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=a1c5e5"],\
-            ["uuid", "npm:9.0.0"]\
+            ["uuid", "npm:8.3.2"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -12016,6 +12016,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["uuid", [\
+        ["npm:8.3.2", {\
+          "packageLocation": "./.yarn/cache/uuid-npm-8.3.2-eca0baba53-5575a8a75c.zip/node_modules/uuid/",\
+          "packageDependencies": [\
+            ["uuid", "npm:8.3.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:9.0.0", {\
           "packageLocation": "./.yarn/cache/uuid-npm-9.0.0-46c41e3e43-8dd2c83c43.zip/node_modules/uuid/",\
           "packageDependencies": [\
