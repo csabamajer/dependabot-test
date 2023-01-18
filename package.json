@@ -51,7 +51,7 @@
     "reflect-metadata": "^0.1.13",
     "rimraf": "^4.1.1",
     "rxjs": "^7.6.0",
-    "uuid": "^9.0.0"
+    "uuid": "^8.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
