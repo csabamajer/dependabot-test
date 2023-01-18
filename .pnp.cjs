@@ -77,7 +77,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-mock-extended", "virtual:a48633a9f3cfe7ebb251f87bc708f5cfeb9c96fc678608768ce74ad84072ce5cbd47e5aa5fdda4924a829773e8edbe65cec1c70f8710b4257e56957efa9e12f1#npm:3.0.1"],\
             ["kafkajs", "npm:2.2.3"],\
             ["lint-staged", "npm:13.1.0"],\
-            ["luxon", "npm:2.5.2"],\
+            ["luxon", "npm:3.2.1"],\
             ["node-fetch-h2", "npm:2.3.1-0"],\
             ["prettier", "npm:2.8.3"],\
             ["reflect-metadata", "npm:0.1.13"],\
@@ -8931,10 +8931,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["luxon", [\
-        ["npm:2.5.2", {\
-          "packageLocation": "./.yarn/cache/luxon-npm-2.5.2-d4f55f89d0-d8b671ffd2.zip/node_modules/luxon/",\
+        ["npm:3.2.1", {\
+          "packageLocation": "./.yarn/cache/luxon-npm-3.2.1-56f8d97395-3fa3def2c5.zip/node_modules/luxon/",\
           "packageDependencies": [\
-            ["luxon", "npm:2.5.2"]\
+            ["luxon", "npm:3.2.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -9377,7 +9377,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-mock-extended", "virtual:a48633a9f3cfe7ebb251f87bc708f5cfeb9c96fc678608768ce74ad84072ce5cbd47e5aa5fdda4924a829773e8edbe65cec1c70f8710b4257e56957efa9e12f1#npm:3.0.1"],\
             ["kafkajs", "npm:2.2.3"],\
             ["lint-staged", "npm:13.1.0"],\
-            ["luxon", "npm:2.5.2"],\
+            ["luxon", "npm:3.2.1"],\
             ["node-fetch-h2", "npm:2.3.1-0"],\
             ["prettier", "npm:2.8.3"],\
             ["reflect-metadata", "npm:0.1.13"],\
