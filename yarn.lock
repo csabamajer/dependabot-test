@@ -6670,7 +6670,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"kafkajs@npm:^2.2.3":
+"kafkajs@npm:^2.2.0":
   version: 2.2.3
   resolution: "kafkajs@npm:2.2.3"
   checksum: 30f17de75da852942334b6069c5c515e2531a7b610997f0e4c6088281f16588df45ac920218411d9ae995c09af1f69186ed4d73cbe0e5f1247ec756dd9c7678e
@@ -7387,7 +7387,7 @@ __metadata:
     husky: ^8.0.1
     jest: ^28.1.2
     jest-mock-extended: ^3.0.1
-    kafkajs: ^2.2.3
+    kafkajs: ^2.2.0
     lint-staged: ^13.0.3
     luxon: ^3.1.1
     node-fetch-h2: 2.3.1-0
@@ -7401,7 +7401,7 @@ __metadata:
     ts-node: ^10.8.2
     tsconfig-paths: ^4.1.0
     typescript: ^4.7.4
-    uuid: ^8.0.0
+    uuid: ^9.0.0
   languageName: unknown
   linkType: soft
 
@@ -9705,21 +9705,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:9.0.0":
+"uuid@npm:9.0.0, uuid@npm:^9.0.0":
   version: 9.0.0
   resolution: "uuid@npm:9.0.0"
   bin:
     uuid: dist/bin/uuid
   checksum: 8dd2c83c43ddc7e1c71e36b60aea40030a6505139af6bee0f382ebcd1a56f6cd3028f7f06ffb07f8cf6ced320b76aea275284b224b002b289f89fe89c389b028
-  languageName: node
-  linkType: hard
-
-"uuid@npm:^8.0.0":
-  version: 8.3.2
-  resolution: "uuid@npm:8.3.2"
-  bin:
-    uuid: dist/bin/uuid
-  checksum: 5575a8a75c13120e2f10e6ddc801b2c7ed7d8f3c8ac22c7ed0c7b2ba6383ec0abda88c905085d630e251719e0777045ae3236f04c812184b7c765f63a70e58df
   languageName: node
   linkType: hard
 
