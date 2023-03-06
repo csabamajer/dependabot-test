@@ -6994,10 +6994,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"luxon@npm:^2.1.1":
-  version: 2.5.2
-  resolution: "luxon@npm:2.5.2"
-  checksum: d8b671ffd2ff0b438af862ac11082a81b3aedd9f8b6a4ca636f944224f8dd381125cd4d274ca0a8aedcaf2cfca0fc2ca96fe4cc1b16a28b7af701afb95c0bff8
+"luxon@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "luxon@npm:3.3.0"
+  checksum: 50cf17a0dc155c3dcacbeae8c0b7e80db425e0ba97b9cbdf12a7fc142d841ff1ab1560919f033af46240ed44e2f70c49f76e3422524c7fc8bb8d81ca47c66187
   languageName: node
   linkType: hard
 
@@ -7389,7 +7389,7 @@ __metadata:
     jest-mock-extended: ^3.0.1
     kafkajs: ^2.2.0
     lint-staged: ^13.0.3
-    luxon: ^2.1.1
+    luxon: ^3.3.0
     node-fetch-h2: 2.3.1-0
     prettier: ^2.8.3
     reflect-metadata: ^0.1.13
